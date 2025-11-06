@@ -1,0 +1,10 @@
+# generate-config-workflow.example.yml
+# این فایل فقط شرح گام‌های یک workflow را نشان می‌دهد (نمونه توصیفی)
+#
+# Workflow مثال (توضیحی):
+# 1. Trigger: manual dispatch یا وقتی یک issue/new file اضافه شد
+# 2. Step A: Validate input metadata (non-executable check)
+# 3. Step B: (در محیط واقعی) اسکریپت تولید کلید و کانفیگ اجرا می‌شود — این بخش در این مثال قرار ندارد
+# 4. Step C: ذخیره متادیتا و ساخت یک فایل client-config-template در ریپو یا ارسال به شیت
+#
+# **نکته:** برای نوشتن workflow اجرایی به docs رسمی GitHub Actions مراجعه کنید.
