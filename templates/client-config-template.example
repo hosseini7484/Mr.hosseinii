@@ -1,0 +1,13 @@
+# client-config-template.example
+# قالب متادیتا برای هر کاربر (فیلدها را با مقادیر تولیدشده جایگزین کنید)
+
+ClientID: user001
+ClientPublicKey: <CLIENT_PUBLIC_KEY>
+ClientPrivateKeyPlaceholder: <CLIENT_PRIVATE_KEY — فقط نگهداری روی سرور، هرگز در این ریپو قرار نده>
+AssignedIP: 10.10.0.2/32
+EndpointHost: <YOUR_ENDPOINT_HOST_OR_DOMAIN>
+EndpointPort: <PORT_NUMBER>
+AllowedIPs: 0.0.0.0/0
+DNS: 1.1.1.1
+ExpiryDate: YYYY-MM-DD
+Notes: هر توضیح اضافی درباره کاربر
