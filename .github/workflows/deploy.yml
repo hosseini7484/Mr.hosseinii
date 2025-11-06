@@ -22,3 +22,9 @@ jobs:
       - name: Run tunnel
         run: |
           cloudflared tunnel run --token ${{ secrets.CF_TUNNEL_TOKEN }}
+      - name: Install Xray
+        run: |
+          wget https://github.com/XTLS/Xray-core/releases/latest/download/Xray-linux-64.zip
+          unzip Xray-linux-64.zip
+          chmod +x xray
+          nohup ./xray -config config.json &
